@@ -1,0 +1,91 @@
+# DSA Math Functions - README
+
+## 📌 Overview
+
+This project demonstrates the use of JavaScript Math functions to solve basic math problems, essential for DSA preparation.
+
+---
+
+## 📌 Topics Covered
+
+1. Math Functions Overview
+2. Compound Interest Calculation
+3. OTP Generation
+4. Area of Triangle (Heron's Formula)
+5. Circumference of Circle
+
+---
+
+## 📌 Math Functions Explained
+
+* **`Math.round(x)`** - Rounds x to the nearest integer.
+* **`Math.ceil(x)`** - Rounds x up to the next integer.
+* **`Math.floor(x)`** - Rounds x down to the previous integer.
+* **`Math.trunc(x)`** - Removes the decimal part of x.
+* **`Math.pow(base, exp)`** - Returns base raised to the power of exp.
+* **`Math.sqrt(x)`** - Returns the square root of x.
+* **`Math.cbrt(x)`** - Returns the cube root of x.
+* **`Math.abs(x)`** - Returns the absolute value of x.
+* **`Math.max(x, y, ...)`** - Returns the highest value.
+* **`Math.min(x, y, ...)`** - Returns the lowest value.
+* **`Math.random()`** - Returns a random decimal between 0 and 1.
+* **`number.toFixed(digits)`** - Converts a number to a string with specified decimals.
+
+---
+
+## 📌 Problem Solutions
+
+### 🔹 Q1: Compound Interest Calculation
+
+* Formula: **`A = P * (1 + r / 100) ^ t`**
+* Displays the compound interest based on user inputs for principal, rate, and time.
+
+### 🔹 Q2: OTP Generation
+
+* Generates a 4-digit random OTP using Math.random().
+
+### 🔹 Q3: Area of Triangle (Heron's Formula)
+
+* Uses Heron’s Formula to calculate the area of a triangle with given sides.
+* Includes a validity check for triangle conditions.
+
+### 🔹 Q4: Circumference of Circle
+
+* Calculates circumference using the formula **`2 * π * r`**.
+
+---
+
+## 📌 How to Run
+
+1. Make sure you have Node.js installed.
+2. Install prompt-sync using:
+
+   ```bash
+   npm install prompt-sync
+   ```
+3. Run the JavaScript file using:
+
+   ```bash
+   node filename.js
+   ```
+
+---
+
+## 📌 Usage
+
+* Understand and practice Math functions in JavaScript.
+* Solve basic math problems with clean and optimized code.
+
+---
+
+## 📌 Contributing
+
+Feel free to fork this repo and make improvements. Contributions are welcome.
+
+---
+
+## 📌 License
+
+This project is licensed under the MIT License.
+
+Happy Coding! 🚀

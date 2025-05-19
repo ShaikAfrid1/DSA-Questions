@@ -1,0 +1,55 @@
+# Conditional Statements - DSA
+
+This repository contains JavaScript code demonstrating the use of conditional statements (if-else) to solve various basic problems. Each problem showcases how to use conditions effectively in different scenarios.
+
+## 💡 Problems Covered
+
+### 1. Greatest of Two Numbers
+
+* Accepts two numbers and prints the greater number.
+
+### 2. Even or Odd
+
+* Accepts an integer and checks whether it is even or odd.
+
+### 3. Valid Voter Check
+
+* Accepts a name and age, and checks if the user is a valid voter (age >= 18).
+
+### 4. Greatest of Three Numbers
+
+* Accepts three numbers and prints the greatest among them.
+* Solved using two methods:
+
+  * Method 1: Using `Math.max()`.
+  * Method 2: Using logical conditions.
+
+### 5. Leap Year Check
+
+* Accepts a year and checks if it is a leap year.
+
+### 6. Shop Discount Calculator
+
+* Accepts an amount and calculates the final amount after applying a discount based on the amount:
+
+  * No discount for ≤ 5000.
+  * 5% discount for > 5000 and ≤ 7000.
+  * 10% discount for > 7000 and ≤ 9000.
+  * 20% discount for > 9000.
+
+### 7. Electricity Bill Calculator
+
+* Accepts the number of units consumed and calculates the total bill:
+
+  * ₹3 per unit for first 100 units.
+  * ₹5 per unit for next 200 units.
+  * ₹8 per unit for units above 300.
+
+## 🚀 Usage
+
+1. Make sure Node.js is installed.
+2. Run the JavaScript file using:
+
+   ```bash
+   node conditional-dsa.js
+   ```
