@@ -1,0 +1,83 @@
+# JavaScript Basics - README
+
+## 📌 Overview
+
+This project covers the basic concepts of JavaScript, including working with numbers, strings, type coercion, and swapping variables.
+
+---
+
+## 📌 Topics Covered
+
+1. Sum of Two Integers
+2. Relation Between Strings and Numbers
+3. Type Coercion
+4. Accepting User Input
+5. Swapping Two Variables (Three Methods)
+
+---
+
+## 📌 Code Explanation
+
+### 🔹 Q1: Sum of Two Integers
+
+* Prompts the user for two numbers and prints their sum.
+* Utilizes the `Number()` function to ensure the inputs are treated as numbers.
+
+### 🔹 Q2: Relation Between Strings and Numbers
+
+* Demonstrates how JavaScript handles addition between strings and numbers (concatenation vs arithmetic).
+
+### 🔹 Q3: Sum with Message
+
+* Shows how JavaScript performs type coercion when adding numbers and strings.
+* Highlights the importance of parentheses for proper calculation.
+
+### 🔹 Q4: Accepting User Input
+
+* Prompts the user to enter their age and displays it.
+
+### 🔹 Q5: Swapping Two Variables
+
+* Demonstrates three methods for swapping two variables:
+
+  * Using a Temporary Variable
+  * Using Arithmetic Operations
+  * Using Destructuring Assignment (Modern Approach)
+
+---
+
+## 📌 How to Run
+
+1. Make sure you have Node.js installed.
+2. Install prompt-sync using:
+
+   ```bash
+   npm install prompt-sync
+   ```
+3. Run the JavaScript file using:
+
+   ```bash
+   node filename.js
+   ```
+
+---
+
+## 📌 Usage
+
+* Understand basic type coercion in JavaScript.
+* Learn the difference between arithmetic and string concatenation.
+* Practice different methods of swapping variables.
+
+---
+
+## 📌 Contributing
+
+Feel free to fork this repo and make improvements. Contributions are welcome.
+
+---
+
+## 📌 License
+
+This project is licensed under the MIT License.
+
+Happy Coding! 🚀
